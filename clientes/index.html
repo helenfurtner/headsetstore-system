@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Clientes - Headset Store | Sistema de Gerenciamento</title>
+        <meta name="description" content="Inscreva-se e receba cupons exclusivos com até 50% de desconto para utilizar na nossa loja até o final do ano.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="../public/images/favicon.png">
+        <link rel="stylesheet" href="../public/css/main.css">
+    </head>
+    <body>
+        <nav>
+            <div class="container">
+                <div class="brand">
+                    <a href="#"><img src="../public/images/logo.png"/></a>
+                </div>
+            </div>
+        </nav>
+
+        <main>
+
+          <section>
+              <div class="center_column">
+                <div class="paper">
+                    <h1>Cadastro de clientes</h1>
+
+                    <form method="post" id="formulario">
+                      <div class="box-form">
+                          <input type="text" id="nome" name="nome" placeholder="Nome">
+                      </div>
+                      <div class="box-form">
+                          <input type="email" id="email" name="email" placeholder="E-mail">
+                      </div>                      
+                      <div class="box-form">
+                        <input type="text" id="telefone" name="telefone" placeholder="Telefone">
+                      </div>
+                      
+                      <div class="box-form">
+                        <input type="text" id="end" name="end" placeholder="Endereço">
+                      </div><br>
+
+                      <input type="submit" class="btn-send" value="Cadastrar!">
+                    </form><br/>
+
+                    <p id="resposta"></p>
+
+                </div>
+              </div>
+          <section> 
+
+          <section class="bg_white">
+            <div class="container">
+              <div class="row" id="lista"></div>
+            </div>
+          </section>
+
+        </main>
+
+        <footer>
+            <div class="copy">
+                <small>2021 © Developed by Helen Furtner</small>
+            </div>  
+        </footer>
+
+        <script src="clientes.js" async defer></script>
+    </body>
+</html>
